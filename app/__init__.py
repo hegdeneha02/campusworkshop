@@ -6,7 +6,7 @@ import psycopg2
 app = Flask(__name__)
 postgres = psycopg2.connect(
         host="dpg-chaas73hp8u791h19sc0-a.oregon-postgres.render.com",
-        database="todo_ntr5",
+        database="todo_nt5r",
         user="todo_nt5r_user",
         password="bb0GjkIS3fEslcUFaUj3m6In6Qa36qMF")
 # To prevent from using a blueprint, we use a cyclic import
